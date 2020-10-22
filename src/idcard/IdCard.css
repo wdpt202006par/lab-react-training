@@ -1,0 +1,14 @@
+body {margin: 10px}
+#idcard {
+    display: flex;
+    border: 1px solid;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+#idcard img {
+    object-fit: cover;
+    margin: 20px;
+}
+#idcard span {
+    font-weight: bold;
+}
