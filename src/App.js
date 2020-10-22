@@ -24,6 +24,7 @@ function App() {
         picture="https://randomuser.me/api/portraits/women/44.jpg"
       />
     </div>
+    
   );
 }
 
