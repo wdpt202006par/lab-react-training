@@ -1,0 +1,34 @@
+#creditCard {
+    box-sizing: border-box;
+    padding: 20px;
+    width: 350px;
+    height: 200px;
+    border-radius: 15px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+
+    /* float: left; */
+}
+
+#creditCard p {
+    margin: 0;
+}
+
+#creditCard .number {
+    font-size: 2em;
+    align-self: center;
+    letter-spacing: 3.9px;
+    margin: 0.5em 0;
+}
+
+#creditCard img {
+    width: 70px;
+    align-self: flex-end;
+}
+
+#creditCard .bank {
+    margin-left: 2em;
+}
