@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
 import IdCard from './IdCard/IdCard';
+import Greetings from './greetings/Greetings';
 import './App.css';
 
 function App() {
@@ -22,6 +22,8 @@ function App() {
            birth="1988-05-11"
            picture="https://randomuser.me/api/portraits/women/44.jpg"
            /> 
+          <Greetings language="de">Ludwig</Greetings>
+          <Greetings language="fr">François</Greetings>
     </div>
   );
 }
