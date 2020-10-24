@@ -1,5 +1,6 @@
-.App {
-  text-align: center;
+* {
+  margin-left: 50px;
+  margin-top: 10px;
 }
 
 .card{
@@ -12,4 +13,13 @@
 }
 .media-content{
   padding-left: 15px;
+}
+.CCard img{
+  height: 13px;
+  float: right;
+  
+}
+.CCard div{
+  font-weight: bold;
+  margin-left:15px ;
 }
