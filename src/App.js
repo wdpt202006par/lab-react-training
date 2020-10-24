@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import IdCard from '../src/idcard/IdCard';
 import Greetings from '../src/greetings/Greetings';
+import Random from '../src/random/Random';
 
 function App() {
   return (
@@ -31,6 +32,11 @@ function App() {
         <h2>Greetings</h2>
         <Greetings lang="de">Ludwig</Greetings>
         <Greetings lang="fr">François</Greetings>
+      </div>
+      <div className="random">
+        <h2>Random</h2>
+        <Random min={1} max={6}/>
+        <Random min={1} max={100}/>
       </div>
     </div>
   );
