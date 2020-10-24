@@ -1,0 +1,10 @@
+#boxcolor {
+  height: auto;
+  border: solid 1px black;
+  margin: 8px;
+  padding: 8px;
+}
+
+#boxcolor p {
+  margin: 0;
+}
