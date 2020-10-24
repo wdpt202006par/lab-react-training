@@ -1,0 +1,21 @@
+#id-card {
+  display: flex;
+  height: auto;
+  border: solid 1px black;
+  padding: 4px;
+  margin: 8px;
+}
+
+.avatar {
+  height: 128px;
+  width: 128px;
+}
+
+.infos p {
+  margin: 0 0 0 8px;
+  text-align: left;
+}
+
+.infos span {
+  font-weight: bold;
+}
