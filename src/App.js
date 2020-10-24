@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import IdCard from './IdCard';
 import Greetings from './Greetings';
-
+import Random from './Random';
 
 
 function App() {
@@ -13,6 +13,8 @@ function App() {
         <IdCard picture="https://randomuser.me/api/portraits/women/44.jpg" firstName ="Obrien" lastName="Dolored" gender="female" height="1.72m" birth="Tue May 12 1993"/>
         <Greetings lang="de">Ludwig</Greetings>
         <Greetings lang="fr">François</Greetings>
+        <Random min ="1" max="6"></Random>
+        <Random min ="1" max ="100"></Random>
     </div>
   );
 }
