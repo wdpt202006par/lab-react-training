@@ -38,7 +38,13 @@
 }
 
 .box {
-  display:flex;
-  align-items:center;
+  display: flex;
+  align-items: center;
   border: 1px solid black;
+}
+
+.boxcolor {
+  border: 1px solid black;
+  width: 500px;
+  height: 300px;
 }

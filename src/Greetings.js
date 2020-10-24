@@ -1,7 +1,5 @@
 import React from 'react';
 
-
-
 function Greetings(props){
     const object = {
         de:"Hallo",
