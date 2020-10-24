@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import IdCard from './idcard/IdCard'
+import Greetings from './greetings/Greetings'
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
         picture="https://randomuser.me/api/portraits/women/44.jpg"
       />
 
+      <Greetings lang="de">Ludwig</Greetings>
+      <Greetings lang="fr">François</Greetings>
     </div>
   );
 }
