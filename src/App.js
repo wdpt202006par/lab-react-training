@@ -1,5 +1,7 @@
 import React from 'react';
 import IdCard from './card/Idcard'
+import Greetings from './greetings/Greetings'
+import Random from './random/Random'
 import './App.css';
 
 
@@ -18,6 +20,13 @@ function App() {
         height="172"
         birth="1988-05-11"
         picture="https://randomuser.me/api/portraits/women/44.jpg"/>
+        <Greetings lang="de">Ludwig</Greetings>
+        <Greetings lang="fr">François</Greetings>
+        <Greetings lang="es">Juan</Greetings>
+        <Greetings lang="en">John</Greetings>
+        <Random min={1} max={6}/>
+        <Random min={1} max={100}/>
+
     </div>
   );
 }
