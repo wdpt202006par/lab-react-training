@@ -1,0 +1,11 @@
+#greetings {
+  display: flex;
+  height: auto;
+  border: solid 1px black;
+  padding: 4px;
+  margin: 8px;
+}
+
+#greetings p {
+  margin: 0;
+}
