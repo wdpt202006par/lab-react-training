@@ -7,7 +7,7 @@ const BoxColor = props => {
      width: 500,
  };
     return (
-        <div style={divStyle}>
+        <div className="box"style={divStyle}>
             <p>Rgb({props.r} {props.g} {props.b})</p>
         </div>
     )
