@@ -8,6 +8,8 @@ import Rating from './rate/rate'
 import DriverCard from './driverCard/driverCard'
 import LikeButton from './likeButton/LikeButton'
 import ClickablePicture from './ClickablePicture'
+import Dice from './Dice'
+import Carousel from './Carousel'
 import './App.css';
 
 
@@ -89,6 +91,15 @@ function App() {
         <ClickablePicture
           img='/img/persons/maxence.png'
           imgClicked='/img/persons/maxence-glasses.png'
+        />
+        <Dice dice='/img/dice3.png' />
+        <Carousel
+          imgs={[
+            'https://randomuser.me/api/portraits/women/1.jpg',
+            'https://randomuser.me/api/portraits/men/1.jpg',
+            'https://randomuser.me/api/portraits/women/2.jpg',
+            'https://randomuser.me/api/portraits/men/2.jpg'
+          ]}
         />
     </div>
   );
